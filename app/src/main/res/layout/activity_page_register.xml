@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageRegister">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="87dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60sp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:layout_marginBottom="30sp"
+            android:fontFamily="sans-serif"
+            android:text="Sing Up"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="Name : "
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:ems="10"
+            android:hint="salsabilazahra@gmail.com"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="123456"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="358dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="I agree with Terms and" />
+
+            <TextView
+                android:id="@+id/forgotpw"
+                android:layout_width="172dp"
+                android:layout_height="41dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                android:textAlignment="textStart"
+                android:textColor="#59FF00"
+                tools:text="Privacy policy" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnget"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="180sp"
+            android:backgroundTint="#3B8A0F"
+            android:text="Sign Up" />
+
+        <LinearLayout
+            android:layout_width="231dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Already Have A Account?"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/txtsignup"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Sign In"
+                android:textAlignment="center"
+                android:textColor="#3B890F" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
